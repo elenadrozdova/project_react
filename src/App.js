@@ -35,6 +35,7 @@ class Clock extends React.Component {
         <h1>Hello,  {user.name}    </h1>
         <h2>It is {this.state.date.toLocaleTimeString()}</h2>
         <button onClick = {this.handleClick}>Я кнопка!</button> <h1>{this.state.num}</h1>
+        <button>Ещё кнопка!</button>
       </div>
     );
   }
